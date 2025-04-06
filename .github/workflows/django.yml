@@ -26,4 +26,5 @@ jobs:
 
     - name: Run Django tests
       run: |
+        cd Hello
         python manage.py test
